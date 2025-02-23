@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Nebula - Buyurtma</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="dark-theme">
+    <div class="cursor"></div>
+    <header>
+        <nav class="navbar">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=60&w=200" alt="Cafe Nebula Logo" class="logo bounce-in">
+            <div class="hamburger">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-item slide-in">Bosh Sahifa</a></li>
+                <li><a href="about.html" class="nav-item slide-in">Biz Haqimizda</a></li>
+                <li><a href="menu.html" class="nav-item slide-in">Menyu</a></li>
+                <li><a href="order.html" class="nav-item slide-in">Buyurtma</a></li>
+                <li><a href="reservation.html" class="nav-item slide-in">Bron</a></li>
+                <li><a href="gallery.html" class="nav-item slide-in">Galereya</a></li>
+                <li><a href="contact.html" class="nav-item slide-in">Aloqa</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn pulse">🌙</button>
+        </nav>
+    </header>
+    <main>
+        <section class="order-section">
+            <h1 class="glow fade-in">Kosmo Buyurtma</h1>
+            <form action="mailto:cafe@example.com" method="post" enctype="text/plain" class="order-form orbit">
+                <label for="name" class="fade-in">Ismingiz:</label>
+                <input type="text" id="name" name="name" required placeholder="Kosmo Sayohatchi" class="input-field slide-in">
+                <label for="order" class="fade-in">Buyurtmangiz:</label>
+                <textarea id="order" name="order" rows="5" required placeholder="Masalan: 2 Kosmo Kofe" class="input-field slide-in"></textarea>
+                <label for="phone" class="fade-in">Telefon:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="+998 99 123-45-67" class="input-field slide-in">
+                <button type="submit" class="btn neon-btn pulse">Yuborish</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="fade-in">© 2025 Cafe Nebula. Kosmosdan Sevgi Bilan.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
